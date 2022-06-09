@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+}
+
+/*Styling af header med titel*/
+header img{
+    width: 100vw;
+    height: 57vh;
+    margin-top: 3rem;
+    object-fit: cover;
+}
+
+header{
+    margin-bottom: -4px;
+}
+
+.header-big{
+    font-family: var(--script);
+    font-size: 4.5rem;
+    color: var(--light-text);
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.header-small{
+    font-style: italic;
+    font-size: 4.5vw;
+    color: var(--light-text);
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.headerpics{
+    position: relative;
+}
+.headerimg{
+    position: relative;
+}
+
+/* Styling til sektionerne */
+.selskaber-container{
+    background-color: #F0F0EB;
+    padding-bottom: 3rem
+}
+
+.textbox1{
+    padding-top: 3.2rem;
+}
+.textbox2{
+    margin-top: 1rem;
+}
+.phone-tab{
+    display: flex;
+    margin-left: 4rem;
+    font-style: italic;
+}
+
+.phone-tab p{
+    font-size: 0.9rem;
+    text-align-last: right;
+    color: var(--dark-green);
+    font-family: var(--sans-serif);
+    font-weight: 400;
+}
+
+.phone-tab img{
+    height: 1.6rem;
+    width: auto;
+    margin-right: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.info-tab {
+    font-size: 1em;
+    font-family: var(--sans-serif-regular);
+    font-weight: 400;
+    margin-right: 1.7rem;
+}
+h3{
+    font-style: normal;
+    font-weight: bolder;
+    color: var(--dark-green);
+    font-family: var(--sans-serif-regular);
+    font-weight: 400;
+}
+
+p{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 0.8rem;
+}
+
+.p1{
+    margin-left: 4rem;
+}
+
+.selskaber-one h3, .textbox1 h3{
+    color: var(--light-green);
+    font-size: 1.5em;
+    margin-left: 1em;
+    padding-bottom: 0.5rem;
+}
+
+.textbox2 h3{
+    margin-top: 1.5rem;
+    font-style: italic;
+    color: var(--dark-green);
+    font-size: 1.2em;
+}
+
+.punktliste{
+    margin-left: 5rem;
+}
+
+/* Galleriet */
+
+.selskab-galleri{
+    align-items: center;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: var(--grey);
+}
+.selsbillede{
+    position: relative;
+    width: 75vw;
+    height: 35vh;
+    margin: 2rem auto;
+    background-repeat: no-repeat;
+}
+
+.sels1 {
+    background-image: url(../img/selskab1.jpg);
+    background-size: 150%;
+    background-position: 50% 70%;
+}
+
+.sels2 {
+    background-image: url(../img/selskab2.jpg);
+    background-size: 150%;
+    background-position: 50% 95%;
+}
+
+.sels3 {
+    background-image: url(../img/selskab3.jpg);
+    background-size: 128%;
+    background-position: 50% 70%;
+}
+.selskab-galleri img{
+    object-fit: cover;
+    display: block;
+    overflow: hidden;
+}
+
+/* footer mobile */
+footer p{
+    color: var(--light-text);
+}
+
+/*Styling af sectioner*/
+.section-img{
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+    margin-bottom: -4px;
+}
+.text-box{
+    margin-left: 4em;
+    margin-right: 1.5em;
+    margin-top: 0.5em;
+    padding-bottom: 2em;
+}
+hr{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+.selskab-galleri{
+    margin-left: 0rem;
+    background-color: var(--grey);
+}
+
+/* Media Query for Tablet */
+@media only screen and (min-width: 700px){
+.header-big{
+    font-size: 7rem;
+    top: 33%;
+}
+.header-small{
+    top: 43%;
+    font-size: 1.6rem;
+}
+.selsbillede{
+    position: relative;
+    width: 50vw;
+    height: 35vh;
+    margin: 2rem auto;
+    background-repeat: no-repeat;
+}
+.selskaber-container{
+    display: flex;
+    flex-direction: row;
+}
+.textbox1{
+    width: 50%;
+    float: left;
+}
+.textbox2{
+    width: 50%;
+    float: right;
+    padding-top: 6.4rem;
+}
+.selsbillede{
+    position: relative;
+    width: 28rem;
+    margin: 2rem auto;
+    height: 19rem;
+    background-repeat: no-repeat;
+}
+}
+
+/* Media Query for Web */
+@media only screen and (min-width: 960px) {
+    /*'html, body' side scroll fix fundet på https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll */
+    html, body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    header img{
+        margin-top:auto;
+        height: 55vh;
+        object-fit: cover;
+    }
+    .header-big{
+        font-size: 10vw;
+        top: 32%;
+    }
+    .header-small{
+        top: 44%;
+        font-size: 1.8vw;
+    }
+
+    .linep1{
+        margin-right: 20vw;
+    }
+    h3{
+        font-size: 170%;
+        font-weight: bolder;
+        margin: 1rem 1.5rem;
+    }
+    p{
+        line-height: 2.2;
+        font-size: 110%;
+    }
+    .phoneicon{
+        width: 2.063rem;
+        height: auto;
+    } 
+
+    .selskab-galleri{
+        background-color: var(--grey);
+        margin-left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .section-img{
+        width: 100vw;
+        height: 40vh;
+        object-fit: cover;
+        margin-bottom: -4px;
+    }
+
+}
