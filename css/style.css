@@ -159,7 +159,8 @@ li.mobile-sub-page a {
 
 #checkbox:checked ~ nav ul{
     max-height: 100%;
-    transition: all 10s;
+    width: 100vw;
+    transition: all 0.1s;
 }
 /* ------------------- Mobile navbar slutter ------------------- */
 
@@ -338,7 +339,7 @@ header{
     padding-bottom: 0.3rem;
     float: right;
     margin-right: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     border-bottom-left-radius: 60px;
 }
 
@@ -376,7 +377,7 @@ header{
     font-family: var(--sans-serif-regular);
     font-weight: 400;
     color: var(--dark-green);
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding-top: 1.7rem;
     border-bottom: 1px solid var(--dark-green);
     margin-left: 0;
@@ -450,7 +451,7 @@ header{
     margin-top: 1rem;
     margin-left: 4rem;
     margin-right: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .index-two-awards{
@@ -481,7 +482,7 @@ header{
 /*Hvem er vi - Tekst*/
 .index-four{
     background-color: var(--light-text);
-    height: 23.4rem;
+    height: 30rem;
 }
 
 .index-four h3{
@@ -510,7 +511,7 @@ header{
     padding-left: 4rem;
     padding-right: 1.5rem;
     padding-bottom: 1.3rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--dark-brown);
 }
 
@@ -557,8 +558,8 @@ header{
 .index-six p{
     padding-left: 4rem;
     padding-right: 1.5rem;
-    padding-bottom: 1.3rem;
-    font-size: 0.8rem;
+    padding-bottom: 0rem;
+    font-size: 1rem;
     color: var(--dark-brown);
 }
 
@@ -605,8 +606,8 @@ header{
 .index-eight p{
     padding-left: 4rem;
     padding-right: 1.5rem;
-    padding-bottom: 1.3rem;
-    font-size: 0.8rem;
+    padding-bottom: 0rem;
+    font-size: 1rem;
     color: var(--dark-brown);
 }
 
@@ -625,7 +626,7 @@ header{
 /*Selskaber - Tekst*/
 .index-ten{
     background-color: var(--grey);
-    height: 25.5rem;
+    height: 30rem;
 }
 
 .index-ten h3{
@@ -653,8 +654,8 @@ header{
 .index-ten p{
     padding-left: 4rem;
     padding-right: 1.5rem;
-    padding-bottom: 1.3rem;
-    font-size: 0.8rem;
+    padding-bottom: 0rem;
+    font-size: 1rem;
     color: var(--dark-brown);
 }
 
@@ -689,8 +690,8 @@ header{
 .index-eleven p{
     padding-left: 4rem;
     padding-right: 1.5rem;
-    padding-bottom: 1.3rem;
-    font-size: 0.8rem;
+    padding-bottom: -2rem;
+    font-size: 1rem;
     color: var(--dark-brown);
 }
 
@@ -828,7 +829,7 @@ footer p{
 /* ------ MEDIA QUERY ------ */
 
 /* Media Query for Tablet */
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 744px) {
     
     /* ------ Tablet-Nav ------ */
     
@@ -857,9 +858,17 @@ footer p{
     /* ---- Tablet-Burger-Dropdown ---- */
     
     .dropdown-content a {
-        padding-block: 1.5rem;
+        font-size: 1.6rem;
+        padding-top: 1.5rem;
+        padding-left: 0;
     }
-    
+    .dropdown-content{
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+    }
+    li.mobile-sub-page a{
+        font-size: 1.2rem;
+    }
     .dropdown-content p {
         font-size: 1.4rem;
     }
@@ -895,6 +904,25 @@ footer p{
     footer p{
         font-size: 1.3rem;
     }
+    /*Herunder styles på alle fontene, så de bliver forstørret, samt lidt padding på sektionerne*/
+    .index-gridcontainer p{
+        font-size: 1.2em;
+    }
+    .index-gridcontainer h3{
+        font-size: 1.6em;
+    }
+    .index-gridcontainer h4{
+        font-size: 1.3em;
+    }
+    .index-gridcontainer section{
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+        height: 50vh;
+    }
+    .index-gridcontainer .index-one, .index-gridcontainer .index-eleven{
+        height: 35vh;
+    }
+    
 }
 
 /* Media Query for Web */
@@ -1003,6 +1031,13 @@ footer p{
         grid-template-columns: 50% 50%;
         grid-template-rows: 35rem 50rem 50rem 50rem 50rem 50rem;
     }
+    .index-gridcontainer .index-two, .index-gridcontainer .index-one{
+        height: 35rem;
+    }
+
+    .index-gridcontainer section{
+        height: 50rem;
+    }
     
     /*Se mere knap*/
     .index-se-mere {
@@ -1106,7 +1141,7 @@ footer p{
         margin-top: 1.6rem;
         margin-left: 12.5rem;
         margin-right: 2rem;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     
     .index-two-awards{
@@ -1329,7 +1364,7 @@ footer p{
 
     /*Find Vej - Kort*/
     #gmap_canvas {
-        width: 60rem;
+        width: 55rem;
         height: 35rem;
         margin-top: 7rem;
         }
@@ -1343,7 +1378,7 @@ footer p{
     .index-eleven h3{
         padding-top: 6.8rem;
         font-size: 1.9rem;
-        margin-left: 8.9rem;
+        margin-left: 8rem;
     }
     
     .index-eleven img{
@@ -1355,16 +1390,14 @@ footer p{
     
     .index-eleven hr{
         margin-top: -0.5rem;
-        margin-left: 8.8em;
-        margin-right: 16em;
+        margin-left: 8em;
+        margin-right: 2em;
         margin-bottom: 2rem;
     }
     
     .index-eleven p{
-        padding-left: 12.5rem;
-        padding-right: 15rem;
-        padding-bottom: 9rem;
         font-size: 1.3rem;
+        margin-left: 9rem;
         line-height: 2;
         color: var(--dark-brown);
     }
@@ -1375,7 +1408,8 @@ footer p{
     }
 
     .vis-vej-knap {
-        margin-right: 16rem;
+        margin-top: 2rem;
+        margin-right: 0;
     }
 
     /* Footer */

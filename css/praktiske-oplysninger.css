@@ -1,18 +1,4 @@
-*{
-    margin: 0px;
-    font-family: parisplus-clair;
-}
 
-:root{
-    --dark-brown: #5C3F16;
-    --dark-green: #476948;
-    --light-text: #F0F0EB;
-    --light-green: #889B7F;
-    --grey: #d8d5cd;
-    --script: gioviale, sans-serif;
-    --sans-serif: parisplus-std, sans-serif;
-    --sans-serif-regular: parisplus-std, sans-serif;
-}
 
 /*Styling af header*/
 header{
@@ -70,7 +56,7 @@ header img{
     padding-left: 4rem;
     padding-right: 1.5rem;
     padding-bottom: 1.3rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--dark-brown);
 }
 
@@ -99,7 +85,7 @@ header img{
     padding-left: 4rem;
     padding-right: 1.5rem;
     padding-bottom: 1.3rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--dark-brown);
 }
 
@@ -140,7 +126,7 @@ header img{
     padding-left: 4rem;
     padding-right: 1.5rem;
     padding-bottom: 1.3rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--dark-brown);
 }
 
@@ -161,10 +147,23 @@ header img{
 }
 
 /* Media Query for Tablet */
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 744px){
     .header-big{
         font-size: 4em;
         top: 2em;
+    }
+    .gridcontainer section p{
+        font-size: 1.2rem;
+    }
+    .gridcontainer section h3{
+        font-size: 1.6rem;
+    }
+    .gridcontainer section h4{
+        font-size: 1.3rem;
+    }
+    .gridcontainer section{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
 }
 
@@ -183,11 +182,26 @@ header img{
         margin-top: -1.2em;
         top: 3.3em;
     }
-    
+    .gridcontainer section p{
+        font-size: 1.3rem;
+    }
+    .gridcontainer .index-one p{
+        font-size: 1.1rem;
+    }
+    .gridcontainer section h3{
+        font-size: 1.9rem;
+    }
+    .gridcontainer section h4{
+        font-size: 1.6rem;
+    }
+    .gridcontainer section{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
     .gridcontainer{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 50vh 50vh 50vh 50vh;
+        grid-template-rows: 60vh 50vh 60vh 50vh;
     }
     
     /* Find vej Interaktivt kort */
@@ -200,7 +214,7 @@ header img{
     }    
     #gmap_canvas {
         width: 50vw;
-        height: 610px;
+        height: 800px;
     }
 
     .index-one{
