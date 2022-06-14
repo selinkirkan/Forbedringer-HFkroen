@@ -118,7 +118,7 @@ hr{
     color: var(--dark-green);
 }
 /* Media Query for Tablet */
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 744px){
     .donticon{
         width: 4em;
         height: 4em;
@@ -138,6 +138,10 @@ hr{
     }
     h3{
         font-size: 1.6em;
+    }
+    .gridcontainer section{
+        padding-left: 2.5em;
+        padding-right: 2.5em;
     }
 }
 
@@ -159,7 +163,7 @@ hr{
         margin-top: 1em;
     }
     .pris{
-        margin-top: 1.5em;
+        margin-top: 1.6em;
         margin-right: 0em;
     }
     /*Her placeres de forskllige billeder og tekstfelter i griddet, så de skifter på kryds*/
