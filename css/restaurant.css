@@ -179,7 +179,7 @@ p{
 }
 
 /* Styling til billederne sidst på siden */
-.three{
+.restaurant-images{
     align-items: center;
     padding-left: 0%;
     padding-right: 0%;
@@ -212,7 +212,7 @@ p{
     background-size: 128%;
     background-position: 50% 70%;
 }
-.three img{
+.restaurant-images img{
     object-fit: cover;
     display: block;
     overflow: hidden;
@@ -241,7 +241,7 @@ hr{
     margin-top: 0.5em;
     padding-bottom: 2em;
 }
-.three{
+.restaurant-images{
     margin-left: 0rem;
     background-color: var(--grey);
 }
@@ -273,7 +273,7 @@ hr{
     top: 50vh;
     left: 89vw;
 }
-.restaurant-one{
+.restaurant-opening{
     display: grid;
     grid-template-rows: 50% 50%;
 }
@@ -346,7 +346,7 @@ div.phone-tab{
         top: 44%;
         font-size: 1.8vw;
     }
-    .restaurant-one{
+    .restaurant-opening{
         justify-content: space-evenly;
     }
 
@@ -424,7 +424,7 @@ div.phone-tab{
         width: 2.063rem;
         height: auto;
     } 
-    .three{
+    .restaurant-images{
         background-color: var(--grey);
         margin-left: 0;
         display: flex;
