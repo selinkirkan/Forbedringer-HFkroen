@@ -159,7 +159,8 @@ li.mobile-sub-page a {
 
 #checkbox:checked ~ nav ul{
     max-height: 100%;
-    transition: all 10s;
+    width: 100vw;
+    transition: all 0.1s;
 }
 /* ------------------- Mobile navbar slutter ------------------- */
 
@@ -840,9 +841,17 @@ footer p{
     /* ---- Tablet-Burger-Dropdown ---- */
     
     .dropdown-content a {
-        padding-block: 1.5rem;
+        font-size: 1.6rem;
+        padding-top: 1.5rem;
+        padding-left: 0;
     }
-    
+    .dropdown-content{
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+    }
+    li.mobile-sub-page a{
+        font-size: 1.2rem;
+    }
     .dropdown-content p {
         font-size: 1.4rem;
     }
