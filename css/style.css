@@ -816,7 +816,7 @@ footer p{
 /* ------ MEDIA QUERY ------ */
 
 /* Media Query for Tablet */
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 744px) {
     
     /* ------ Tablet-Nav ------ */
     
@@ -878,6 +878,25 @@ footer p{
     footer p{
         font-size: 1.3rem;
     }
+    /*Herunder styles på alle fontene, så de bliver forstørret, samt lidt padding på sektionerne*/
+    .index-gridcontainer p{
+        font-size: 1.2em;
+    }
+    .index-gridcontainer h3{
+        font-size: 1.6em;
+    }
+    .index-gridcontainer h4{
+        font-size: 1.3em;
+    }
+    .index-gridcontainer section{
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+        height: 50vh;
+    }
+    .index-gridcontainer .index-one, .index-gridcontainer .index-eleven{
+        height: 35vh;
+    }
+    
 }
 
 /* Media Query for Web */
@@ -979,6 +998,13 @@ footer p{
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 35rem 50rem 50rem 50rem 50rem 50rem;
+    }
+    .index-gridcontainer .index-two, .index-gridcontainer .index-one{
+        height: 35rem;
+    }
+
+    .index-gridcontainer section{
+        height: 50rem;
     }
     
     /*Se mere knap*/
@@ -1306,7 +1332,7 @@ footer p{
 
     /*Find Vej - Kort*/
     #gmap_canvas {
-        width: 60rem;
+        width: 55rem;
         height: 35rem;
         margin-top: 7rem;
         }
@@ -1320,7 +1346,7 @@ footer p{
     .index-eleven h3{
         padding-top: 6.8rem;
         font-size: 1.9rem;
-        margin-left: 8.9rem;
+        margin-left: 8rem;
     }
     
     .index-eleven img{
@@ -1332,16 +1358,14 @@ footer p{
     
     .index-eleven hr{
         margin-top: -0.5rem;
-        margin-left: 8.8em;
-        margin-right: 16em;
+        margin-left: 8em;
+        margin-right: 2em;
         margin-bottom: 2rem;
     }
     
     .index-eleven p{
-        padding-left: 12.5rem;
-        padding-right: 15rem;
-        padding-bottom: 9rem;
         font-size: 1.3rem;
+        margin-left: 9rem;
         line-height: 2;
         color: var(--dark-brown);
     }
@@ -1352,7 +1376,8 @@ footer p{
     }
 
     .vis-vej-knap {
-        margin-right: 16rem;
+        margin-top: 2rem;
+        margin-right: 0;
     }
 
     /* Footer */
