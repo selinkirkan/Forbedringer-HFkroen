@@ -1,7 +1,3 @@
-footer p{
-    color: var(--light-text);
-}
-
 /*Styling af sectioner*/
 /*Første sektion på siden er en lille info om åbningstider og tlf-nummer*/
 .opener-phone {
@@ -12,7 +8,7 @@ footer p{
     align-items: center;
 }
 .opener-phone p{
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: var(--dark-brown);
     font-family: var(--sans-serif);
     font-weight: 400;
@@ -91,7 +87,7 @@ hr{
 .facilities li{
     display: list-item;
     color: var(--dark-brown);
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 1.8em;
 }
@@ -101,7 +97,7 @@ hr{
     list-style: none;
 }
 .callerlinkkro{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 7px 0px;
     color: var(--dark-green);
     font-family: var(--sans-serif);
@@ -129,7 +125,7 @@ hr{
         margin-right: 1em;
     }
     .openerleft, .openerright{
-        height: 20vh;
+        height: fit-content;
     }
     .note{
         margin-top: 1em;
@@ -137,13 +133,25 @@ hr{
     .pris{
         margin-top: 3em;
     }
+    p, .facilities li{
+        font-size: 1.2em;
+    }
+    h3{
+        font-size: 1.6em;
+    }
 }
 
 /* Media Query for Web */
 @media only screen and (min-width: 1150px) {
+    p, .facilities li{
+        font-size: 1.3em;
+    }
+    h3{
+        font-size: 1.9em;
+    }
     .section-img{
         width: 50vw;
-        height: 70vh;
+        height: 80vh;
     }
     .note{
         float: right;
@@ -158,7 +166,7 @@ hr{
     .gridcontainer{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 20vh 70vh 70vh;
+        grid-template-rows: 20vh 80vh 80vh;
     }
     .openerleft{
         grid-column: 1/2;

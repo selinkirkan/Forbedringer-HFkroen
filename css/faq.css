@@ -74,7 +74,7 @@ span{
     padding-bottom: 0.8em;
 }
 
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 744px){
     .flex{
         display: flex;
         justify-content: space-between;
@@ -86,6 +86,18 @@ span{
         font-size: 4em;
         top: 2em;
     }
+    /*Herunder styles på alle fontene, så de bliver forstørret, samt lidt padding på sektionerne*/
+    p, span{
+        font-size: 1.2em;
+    }
+    h3{
+        font-size: 1.6em;
+    }
+    section{
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+    }
+
 }
 
 @media only screen and (min-width: 1150px){
@@ -100,5 +112,11 @@ span{
     .flex{
         padding-right: 7em;
         padding-left: 7em;
+    }
+    p, span{
+        font-size: 1.3em;
+    }
+    h3{
+        font-size: 1.9em;
     }
 }
