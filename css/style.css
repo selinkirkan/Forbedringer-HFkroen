@@ -357,14 +357,14 @@ header{
     justify-content: space-between;
 }
 
-.index-one{
+.index-opening{
     background-color: var(--light-text);
     height: 264px;
     padding-left: 1.6rem;
     padding-right: 1.2rem;
 }
 
-.index-one h3{
+.index-opening h3{
     font-family: var(--sans-serif-regular);
     font-weight: 400;
     color: var(--light-green);
@@ -373,7 +373,7 @@ header{
     margin-left: 0;
 }
 
-.index-one h4{
+.index-opening h4{
     font-family: var(--sans-serif-regular);
     font-weight: 400;
     color: var(--dark-green);
@@ -427,12 +427,12 @@ header{
 }
 
 /*Velkommen*/
-.index-two{
+.index-welcome{
     background-color: var(--grey);
     height: 26.2rem;
 }
 
-.index-two h3{
+.index-welcome h3{
     padding-top: 1.2rem;
     font-size: 1.3rem;
     font-family: var(--sans-serif);
@@ -440,13 +440,13 @@ header{
     color: var(--dark-green);
 }
 
-.index-two hr{
+.index-welcome hr{
     margin-top: 0.9rem;
     margin-left: 1.5em;
     margin-right: 1.5em;
 }
 
-.index-two p{
+.index-welcome p{
     color: var(--dark-brown);
     margin-top: 1rem;
     margin-left: 4rem;
@@ -454,38 +454,38 @@ header{
     font-size: 1rem;
 }
 
-.index-two-awards{
+.index-welcome-awards{
     margin-left: 4rem;
     margin-right: 2rem;
     display: flex;
     justify-content: space-between;
 }
 
-.index-two-awards img {
+.index-welcome-awards img {
     margin-top: 1.6rem;
     width: 3.5rem;
     height: auto;
 }
 
 /*Hvem er vi - Billede*/
-    .index-three{
+    .index-aboutus-img{
     height: 14rem;
     width: 100%;
 }
 
-    .index-three img{
+    .index-aboutus-img img{
     width: 100%;
     height: 14rem;
     object-fit: cover;
 }
 
 /*Hvem er vi - Tekst*/
-.index-four{
+.index-aboutus{
     background-color: var(--light-text);
     height: 30rem;
 }
 
-.index-four h3{
+.index-aboutus h3{
     padding-top: 1.8rem;
     font-size: 1.3rem;
     font-family: var(--sans-serif);
@@ -493,21 +493,21 @@ header{
     color: var(--light-green);
 }
 
-.index-four img{
+.index-aboutus img{
     padding-top: 0.8rem;
     padding-left: 0.4rem;
     width: 3.8rem;
     height: auto;
 }
 
-.index-four hr{
+.index-aboutus hr{
     margin-top: 0rem;
     margin-left: 1.5em;
     margin-right: 1.5em;
     margin-bottom: 0.3rem;
 }
 
-.index-four p{
+.index-aboutus p{
     padding-left: 4rem;
     padding-right: 1.5rem;
     padding-bottom: 1.3rem;
@@ -516,24 +516,24 @@ header{
 }
 
 /*Restaurant - Billede*/
-.index-five{
+.index-restaurant-img{
     height: 14rem;
     width: 100%;
 }
 
-    .index-five img{
+.index-restaurant-img img{
     width: 100%;
     height: 14rem;
     object-fit: cover;
 }
 
 /*Restaurant - Tekst*/
-.index-six{
+.index-restaurant{
     background-color: var(--grey);
     height: 30rem;
 }
 
-.index-six h3{
+.index-restaurant h3{
     padding-top: 1.8rem;
     font-size: 1.3rem;
     font-family: var(--sans-serif);
@@ -541,21 +541,21 @@ header{
     color: var(--dark-green);
 }
 
-.index-six img{
+.index-restaurant img{
     padding-top: 0.8rem;
     padding-left: 0.4rem;
     width: 3.8rem;
     height: auto;
 }
 
-.index-six hr{
+.index-restaurant hr{
     margin-top: 0rem;
     margin-left: 1.5em;
     margin-right: 1.5em;
     margin-bottom: 0.3rem;
 }
 
-.index-six p{
+.index-restaurant p{
     padding-left: 4rem;
     padding-right: 1.5rem;
     padding-bottom: 0rem;
@@ -564,24 +564,24 @@ header{
 }
 
 /*Værelser - Billede*/
-.index-seven{
+.index-vaerelser-img{
     height: 14rem;
     width: 100%;
 }
 
-.index-seven img{
+.index-vaerelser-img img{
     width: 100%;
     height: 14rem;
     object-fit: cover;
 }
 
 /*Værelser - Tekst*/
-.index-eight{
+.index-vaerelser{
     background-color: var(--light-text);
     height: 23rem;
 }
 
-.index-eight h3{
+.index-vaerelser h3{
     padding-top: 1.8rem;
     font-size: 1.3rem;
     font-family: var(--sans-serif);
@@ -589,21 +589,21 @@ header{
     color: var(--light-green);
 }
 
-.index-eight img{
+.index-vaerelser img{
     padding-top: 0.8rem;
     padding-left: 0.4rem;
     width: 3.8rem;
     height: auto;
 }
 
-.index-eight hr{
+.index-vaerelser hr{
     margin-top: 0rem;
     margin-left: 1.5em;
     margin-right: 1.5em;
     margin-bottom: 0.3rem;
 }
 
-.index-eight p{
+.index-vaerelser p{
     padding-left: 4rem;
     padding-right: 1.5rem;
     padding-bottom: 0rem;
@@ -612,24 +612,24 @@ header{
 }
 
 /*Selskaber - Billede*/
-.index-nine{
+.index-selskaber-img{
     height: 14rem;
     width: 100%;
 }
 
-.index-nine img{
+.index-selskaber-img img{
     width: 100vw;
     height: 14rem;
     object-fit: cover;
 }
 
 /*Selskaber - Tekst*/
-.index-ten{
+.index-selskaber{
     background-color: var(--grey);
     height: 30rem;
 }
 
-.index-ten h3{
+.index-selskaber h3{
     padding-top: 1.8rem;
     font-size: 1.3rem;
     font-family: var(--sans-serif);
@@ -637,21 +637,21 @@ header{
     color: var(--dark-green);
 }
 
-.index-ten img{
+.index-selskaber img{
     padding-top: 0.8rem;
     padding-left: 0.4rem;
     width: 3.8rem;
     height: auto;
 }
 
-.index-ten hr{
+.index-selskaber hr{
     margin-top: 0rem;
     margin-left: 1.5em;
     margin-right: 1.5em;
     margin-bottom: 0.3rem;
 }
 
-.index-ten p{
+.index-selskaber p{
     padding-left: 4rem;
     padding-right: 1.5rem;
     padding-bottom: 0rem;
@@ -660,12 +660,12 @@ header{
 }
 
 /*Find vej - Tekst*/
-.index-eleven{
+.index-findus{
     background-color: var(--light-text);
     height: 18.5rem;
 }
 
-.index-eleven h3{
+.index-findus h3{
     padding-top: 1.8rem;
     font-size: 1.3rem;
     font-family: var(--sans-serif);
@@ -673,21 +673,21 @@ header{
     color: var(--light-green);
 }
 
-.index-eleven img{
+.index-findus img{
     padding-top: 0.8rem;
     padding-left: 0.4rem;
     width: 3.8rem;
     height: auto;
 }
 
-.index-eleven hr{
+.index-findus hr{
     margin-top: 0rem;
     margin-left: 1.5em;
     margin-right: 1.5em;
     margin-bottom: 0.3rem;
 }
 
-.index-eleven p{
+.index-findus p{
     padding-left: 4rem;
     padding-right: 1.5rem;
     padding-bottom: -2rem;
@@ -919,7 +919,7 @@ footer p{
         padding-right: 2.5em;
         height: 50vh;
     }
-    .index-gridcontainer .index-one, .index-gridcontainer .index-eleven{
+    .index-gridcontainer .index-opening, .index-gridcontainer .index-findus{
         height: 35vh;
     }
     
@@ -1031,7 +1031,7 @@ footer p{
         grid-template-columns: 50% 50%;
         grid-template-rows: 35rem 50rem 50rem 50rem 50rem 50rem;
     }
-    .index-gridcontainer .index-two, .index-gridcontainer .index-one{
+    .index-gridcontainer .index-welcome, .index-gridcontainer .index-opening{
         height: 35rem;
     }
 
@@ -1051,7 +1051,7 @@ footer p{
         }    
 
     /* Åbningstider Grid-Box */
-    .index-one{
+    .index-opening{
         grid-column: 2/3;
         grid-row: 1/2;
         background-color: var(--grey);
@@ -1060,14 +1060,14 @@ footer p{
         padding-right: 1.2rem;
     }
 
-    .index-one h3{
+    .index-opening h3{
         color: var(--dark-green);
         font-size: 1.9rem;
         padding-top: 2.5rem;
         margin-left: 2.5rem;
     }
     
-    .index-one h4{
+    .index-opening h4{
         color: var(--light-green);
         font-size: 1.6rem;
         padding-top: 4.4rem;
@@ -1117,86 +1117,86 @@ footer p{
     }
 
     /* Velkommen Grid-Box */
-    .index-two{
+    .index-welcome{
         grid-column: 1/2;
         grid-row: 1/2;
         background-color: var(--light-text);
         height: 100%;
     }
 
-    .index-two h3{
+    .index-welcome h3{
         font-size: 1.9rem;
         padding-top: 2.5rem;
         margin-left: 8.7rem;
         color: var(--light-green);
     }
     
-    .index-two hr{
+    .index-welcome hr{
         margin-top: 1.1rem;
         margin-left: 8.75rem;
         margin-right: 4rem;
     }
     
-    .index-two p{
+    .index-welcome p{
         margin-top: 1.6rem;
         margin-left: 12.5rem;
         margin-right: 2rem;
         font-size: 1.3rem;
     }
     
-    .index-two-awards{
+    .index-welcome-awards{
         margin-left: 14rem;
         margin-right: 11rem;
         display: flex;
         justify-content: space-between;
     }
     
-    .index-two-awards img {
+    .index-welcome-awards img {
         margin-top: 1.6rem;
         width: 7rem;
         height: auto;
     }
 
     /* [Image] Hvem er vi Grid-Box */
-    .index-three{
+    .index-aboutus-img{
         grid-column: 1/2;
         grid-row: 2/3;
         width: 100%;
         height: 100%;
     }
 
-    .index-three img{
+    .index-aboutus-img img{
         height: 100%;
     }
 
     /* [Text] Hvem er vi Grid-Box */
-    .index-four{
+    .index-aboutus{
         grid-column: 2/3;
         grid-row: 2/3;
         height: 100%;
     }
     
-    .index-four h3{
+    .index-aboutus h3{
         font-size: 1.9rem;
         padding-top: 6.7rem;
         margin-left: 4.2rem;
     }
     
-    .index-four img{
+    .index-aboutus img{
         padding-top: 7.4rem;
         padding-left: 2.4rem;
         width: 6rem;
         height: auto;
     }
     
-    .index-four hr{
+    .index-aboutus hr{
         margin-top: -0.9rem;
         margin-left: 4.2em;
         margin-right: 9em;
         margin-bottom: 1.3rem;
     }
     
-    .index-four p{
+    .index-aboutus p{
         padding-left: 9rem;
         padding-right: 9rem;
         padding-bottom: 3.4rem;
@@ -1204,45 +1204,45 @@ footer p{
     }
 
     /* [Image] Restaurant Grid-Box */
-    .index-five{
+    .index-restaurant-img{
         grid-column: 2/3;
         grid-row: 3/4;
         width: 100%;
         height: 100%;
     }
 
-    .index-five img {
+    .index-restaurant-img img {
         height: 100%;
         width: 100%;
     }
 
     /* [Text] Restaurant Grid-Box */
-    .index-six{
+    .index-restaurant{
         grid-column: 1/2;
         grid-row: 3/4;
         height: 100%;
     }
     
-    .index-six h3{
+    .index-restaurant h3{
         padding-top: 9.5rem;
         font-size: 1.9rem;
         margin-left: 8.9rem;
     }
     
-    .index-six img{
+    .index-restaurant img{
         padding-top: 8.5rem;
         padding-left: 1.4rem;
         width: 6rem;
         height: auto;
     }
     
-    .index-six hr{
+    .index-restaurant hr{
         margin-left: 9em;
         margin-right: 4.2em;
         margin-bottom: 1.4rem;
     }
     
-    .index-six p{
+    .index-restaurant p{
         padding-left: 12.5rem;
         padding-right: 5rem;
         padding-bottom: 3.4rem;
@@ -1250,7 +1250,7 @@ footer p{
     }
 
     /* [Image] Værelser Grid-Box */
-    .index-seven{
+    .index-vaerelser-img{
         grid-column: 1/2;
         grid-row: 4/5;
         width: 100%;
@@ -1258,51 +1258,51 @@ footer p{
         position: relative;
     }
 
-    .index-seven img{
+    .index-vaerelser-img img{
         height:100%;
         width: 100%;
         object-fit: cover;
     }
 
     /* [Text] Værelser Grid-Box */
-    .index-eight{
+    .index-vaerelser{
         grid-column: 2/3;
         grid-row: 4/5;
         height: 100%;
     }
 
-    .index-eight h3{
+    .index-vaerelser h3{
         font-size: 1.9rem;
         padding-top: 12rem;
         margin-left: 4.2rem;
     }
     
-    .index-eight img{
+    .index-vaerelser img{
         padding-top: 12.5rem;
         padding-left: 2.3rem;
         width: 6rem;
         height: auto;
     }
     
-    .index-eight hr{
+    .index-vaerelser hr{
         margin-left: 4.4em;
         margin-right: 9em;
         margin-bottom: 2rem;
     }
     
-    .index-eight p{
+    .index-vaerelser p{
         padding-left: 9rem;
         padding-right: 9rem;
         padding-bottom: 2rem;
         font-size: 1.3rem;
     }
 
-    .index-eight-margin-right {
+    .index-vaerelser-margin-right {
         margin-right: 9rem;
     }
 
     /* [Image] Selskaber Grid-Box */
-    .index-nine{
+    .index-selskaber-img{
         grid-column: 2/3;
         grid-row: 5/6;
         width: 100%;
@@ -1310,7 +1310,7 @@ footer p{
         position: relative;
     }
 
-    .index-nine img{
+    .index-selskaber-img img{
         height:100%;
         width: 100%;
         object-fit: cover;
@@ -1319,32 +1319,32 @@ footer p{
 
 
     /* [Text] Selskaber Grid-Box */
-    .index-ten{
+    .index-selskaber{
         grid-column: 1/2;
         grid-row: 5/6;
         height: 100%;
     }
 
-    .index-ten h3{
+    .index-selskaber h3{
         padding-top: 11.5rem;
         font-size: 1.9rem;
         margin-left: 8.9rem;
     }
     
-    .index-ten img{
+    .index-selskaber img{
         padding-top: 8.5rem;
         padding-left: 1.4rem;
         width: 6rem;
         height: auto;
     }
     
-    .index-ten hr{
+    .index-selskaber hr{
         margin-left: 9em;
         margin-right: 4.2em;
         margin-bottom: 1.4rem;
     }
     
-    .index-ten p{
+    .index-selskaber p{
         padding-left: 12.5rem;
         padding-right: 5rem;
         padding-bottom: 3.4rem;
@@ -1370,32 +1370,32 @@ footer p{
         }
 
     /* [Text] Find Vej Grid-Box */
-    .index-eleven{
+    .index-findus{
         background-color: var(--light-text);
         height: 100%;
     }
     
-    .index-eleven h3{
+    .index-findus h3{
         padding-top: 6.8rem;
         font-size: 1.9rem;
         margin-left: 8rem;
     }
     
-    .index-eleven img{
+    .index-findus img{
         padding-top: 7rem;
         padding-left: 2.5rem;
         width: 6rem;
         height: auto;
     }
     
-    .index-eleven hr{
+    .index-findus hr{
         margin-top: -0.5rem;
         margin-left: 8em;
         margin-right: 2em;
         margin-bottom: 2rem;
     }
     
-    .index-eleven p{
+    .index-findus p{
         font-size: 1.3rem;
         margin-left: 9rem;
         line-height: 2;

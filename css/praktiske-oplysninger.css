@@ -17,7 +17,7 @@ header img{
     margin-top: 3em;
 }
 
-/*Styling af '.index-one', 'index-one h3' & 'index-one h4' kommer fra css/style.css*/
+/*Styling af '.index-opening', 'index-opening h3' & 'index-opening h4' kommer fra css/style.css*/
 
 
 /* Find vej Interaktivt kort */
@@ -185,7 +185,7 @@ header img{
     .gridcontainer section p{
         font-size: 1.3rem;
     }
-    .gridcontainer .index-one p{
+    .gridcontainer .index-opening p{
         font-size: 1.1rem;
     }
     .gridcontainer section h3{
@@ -217,7 +217,7 @@ header img{
         height: 800px;
     }
 
-    .index-one{
+    .index-opening{
         grid-column: 2/3;
         grid-row: 1/2;
         background-color: var(--light-text);
