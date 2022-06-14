@@ -125,7 +125,7 @@ hr{
         margin-right: 1em;
     }
     .openerleft, .openerright{
-        height: fit-content;
+        height: 20vh;
     }
     .note{
         margin-top: 1em;
