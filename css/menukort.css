@@ -17,6 +17,7 @@
     display: flex;
     justify-content: end;
     padding-top: 1.2rem;
+    margin-right: 2em;
 }
 
 .forretter-section a {
@@ -32,6 +33,7 @@
     padding-bottom: 0.3rem;
     border-bottom-left-radius: 60px;
     text-align: center;
+
 }
 
 .forretter-section a:hover{
@@ -49,12 +51,12 @@
     width: 100vw;
 }
 
-h2{
+.menu-section{
     color: var(--light-green);
     font-family: var(--sans-serif);
     text-align: center;
     padding-top: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 1.8rem;
 }
 
@@ -62,7 +64,7 @@ h2{
     font-style: italic;
     text-align: end;
     margin-right: 1.5rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--dark-green);
     font-family: var(--sans-serif);
 }
@@ -77,12 +79,12 @@ h2{
 }
 
 .product{
-    font-size: 0.95rem;
+    font-size: 1rem;
     color: var(--light-green);
 }
 
 .price {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-weight: 700;
     font-family: var(--sans-serif);
     color: var(--dark-green);
@@ -105,7 +107,7 @@ h2{
 }
 
 .menu-h3-fix {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     margin-left: 0rem;
     padding-right: 1rem;
     font-family: var(--sans-serif);
@@ -123,7 +125,7 @@ h2{
 }
 
 .dish-type {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-left: 1.5rem;
     margin-bottom: 1.7rem;
     text-decoration: underline;
@@ -137,7 +139,7 @@ h2{
 }
 
 .menu-h3 {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-left: 1.5rem;
     padding-right: 7rem;
     font-family: var(--sans-serif);
@@ -145,7 +147,7 @@ h2{
 }
 
 .product-undertitle {
-    font-size: 0.75rem;
+    font-size: 1rem;
     font-style: italic;
 }
 
@@ -180,7 +182,7 @@ h2{
 }
 
 .to-retters-h3 {
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-family: var(--sans-serif);
     font-weight: 400;
     margin-left: 0;
@@ -211,8 +213,23 @@ footer h2{
 /* ------ MEDIA QUERY ------ */
 
 /* Media Query for Tablet */
-@media only screen and (min-width: 700px) {
-
+@media only screen and (min-width: 744px) {
+    .product-undertitle, .price{
+        font-size: 1.2rem;
+    }
+    .menu-h3{
+        font-size: 1.3rem;
+    }
+    .dish-type{
+        font-size: 1.4rem;
+    }
+    .menu-section{
+        font-size: 1.6rem;
+    }
+    .web-columns{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
 }
 
 /* Media Query for Web */
@@ -221,8 +238,8 @@ footer h2{
     .web-columns {
         display: flex;
         justify-content: space-evenly;
-        padding-left: 15rem;
-        padding-right: 15rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
     }
 
     
@@ -260,7 +277,7 @@ footer h2{
     .menu-item-size {
         margin-right: 3.3rem;
         margin-top: -0.5rem;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     .product{
@@ -275,7 +292,7 @@ footer h2{
     }
 
     .menu-h3-fix {
-        font-size: 1.25rem;
+        font-size: 1.3rem;
     }
 
     .show-on-web {
@@ -301,7 +318,7 @@ footer h2{
 
     .h2-dark-green{
         padding-top: 2.5rem;
-        font-size: 1.8rem;
+        font-size: 1.9rem;
         margin-bottom: 3rem;
         color: var(--dark-green);
     }
@@ -311,13 +328,13 @@ footer h2{
     }
     
     .menu-h3 {
-        font-size: 1.25rem;
+        font-size: 1.3rem;
         margin-left: 2.4rem;
         padding-right: 12rem;
     }
     
     .product-undertitle {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     /* ----- Hovedretter -----*/
@@ -344,7 +361,7 @@ footer h2{
 
     .to-retters-section h2 {
         margin-top: -0.6rem;
-        font-size: 1.8rem;
+        font-size: 1.9rem;
         margin-bottom: 3rem;
     }
 
@@ -365,7 +382,7 @@ footer h2{
     }
 
     .to-retters-h3 {
-        font-size: 1.25rem;
+        font-size: 1.3rem;
         padding-top: 1.5rem;
     }
 
@@ -382,7 +399,7 @@ footer h2{
 
     .dessert-section h2 {
         margin-top: -0.6rem;
-        font-size: 1.8rem;
+        font-size: 1.9rem;
         margin-bottom: 3rem;
     }
 
