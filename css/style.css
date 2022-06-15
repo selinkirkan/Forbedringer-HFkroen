@@ -18,12 +18,12 @@
 /*Font-styling mobile*/
 h3{
     color: var(--light-green);
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-left: 1em;
 }
 h4{
     color: var(--dark-green);
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-style: italic;
     margin-left: 1.4em;
 }
@@ -115,7 +115,7 @@ li.mobile-sub-page a {
     font-weight: 400;
     background-color: var(--light-text);
     color: var(--dark-green);
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-decoration: none;
     padding-block: 1rem;
     display: flex;
@@ -134,7 +134,7 @@ li.mobile-sub-page a {
     border-top: #C1BBAC 1px solid;
     border-bottom: #C1BBAC 1px solid;
     font-size: 1rem;
-    padding: 1em;
+    padding: 0.5em;
 }
 
 .dropdown-phone p{
@@ -308,7 +308,7 @@ header{
 
 .header-small{
     font-style: italic;
-    font-size: 4.5vw;
+    font-size: 1.3rem;
     color: var(--light-text);
     position: absolute;
     top: 40%;
@@ -858,7 +858,7 @@ footer p{
     /* ---- Tablet-Burger-Dropdown ---- */
     
     .dropdown-content a {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         padding-top: 1.5rem;
         padding-left: 0;
     }
@@ -870,7 +870,7 @@ footer p{
         font-size: 1.2rem;
     }
     .dropdown-content p {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     /* ----- Styling af content ----- */
     .header-big{
@@ -878,7 +878,7 @@ footer p{
         top: 33%;
     }
     .header-small{
-        top: 40%;
+        top: 45%;
         font-size: 2rem;
     }
 
@@ -904,6 +904,12 @@ footer p{
     footer p{
         font-size: 1.3rem;
     }
+
+    .opening-flex {
+        justify-content:start;
+        gap: 4rem;
+    }
+
     /*Herunder styles på alle fontene, så de bliver forstørret, samt lidt padding på sektionerne*/
     .index-gridcontainer p{
         font-size: 1.2em;
@@ -1015,12 +1021,12 @@ footer p{
     }
    
     .header-big{
-        font-size: 10vw;
+        font-size: 8rem;
         top: 33%;
     }
     .header-small{
         top: 44%;
-        font-size: 1.8vw;
+        font-size: 1.9rem;
     }
     .index-gridcontainer img{
         width: 50vw;
@@ -1037,6 +1043,14 @@ footer p{
 
     .index-gridcontainer section{
         height: 50rem;
+    }
+    .opening-flex {
+        justify-content:space-between;
+        gap: 0;
+    }
+    .index-gridcontainer section{
+        padding-left: 0em;
+        padding-right: 0em;
     }
     
     /*Se mere knap*/
@@ -1072,7 +1086,7 @@ footer p{
         font-size: 1.6rem;
         padding-top: 4.4rem;
         margin-left: 2.7rem;
-        margin-bottom: 1.9rem;
+        margin-bottom: 1rem;
         padding-bottom: 1.2rem;
     }
     
@@ -1084,7 +1098,7 @@ footer p{
     .opening-flex p{
         font-size: 1.3rem;
         line-height: 38px;
-        padding-left: 7.8rem;
+        padding-left: 3rem;
         white-space: nowrap;
     }
     
@@ -1105,12 +1119,12 @@ footer p{
     
     .phone-info {
         font-size: 1.3rem;
-        margin-right: 7.5rem;
+        margin-right: 2.5rem;
     }
 
     .callerlink{
         font-size: 1.3rem;
-        margin: 7px 0px;
+        margin-right: -5rem;
         color: var(--dark-green);
         font-family: var(--sans-serif);
         font-weight: 400;
@@ -1145,7 +1159,7 @@ footer p{
     }
     
     .index-welcome-awards{
-        margin-left: 14rem;
+        margin-left: 12rem;
         margin-right: 11rem;
         display: flex;
         justify-content: space-between;

@@ -27,7 +27,7 @@ header{
 
 .header-small{
     font-style: italic;
-    font-size: 4.5vw;
+    font-size: 1,3rem;
     color: var(--light-text);
     position: absolute;
     top: 43%;
@@ -52,9 +52,6 @@ header{
 .textbox1{
     padding-top: 3.2rem;
 }
-.textbox2{
-    margin-top: 1rem;
-}
 .phone-tab{
     display: flex;
     margin-left: 4rem;
@@ -62,7 +59,7 @@ header{
 }
 
 .phone-tab p{
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-align-last: right;
     color: var(--dark-green);
     font-family: var(--sans-serif);
@@ -84,7 +81,6 @@ header{
 }
 h3{
     font-style: normal;
-    font-weight: bolder;
     color: var(--dark-green);
     font-family: var(--sans-serif-regular);
     font-weight: 400;
@@ -93,16 +89,23 @@ h3{
 section p{
     margin-top: 1rem;
     margin-right: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .p1{
     margin-left: 4rem;
 }
+.punktliste li{
+    color: var(--dark-brown);
+    display: list-item;
+    list-style: square;
+    font-weight: 600;
+    line-height: 1.5em;
+}
 
 .selskaber-one h3, .textbox1 h3{
     color: var(--light-green);
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-left: 1em;
     padding-bottom: 0.5rem;
 }
@@ -111,7 +114,7 @@ section p{
     margin-top: 1.5rem;
     font-style: italic;
     color: var(--dark-green);
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .punktliste{
@@ -187,7 +190,7 @@ hr{
 }
 
 /* Media Query for Tablet */
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 744px){
 .header-big{
     font-size: 7rem;
     top: 33%;
@@ -196,33 +199,21 @@ hr{
     top: 43%;
     font-size: 1.6rem;
 }
-.selsbillede{
-    position: relative;
-    width: 50vw;
-    height: 35vh;
-    margin: 2rem auto;
-    background-repeat: no-repeat;
+.textbox1, .textbox2{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
-.selskaber-container{
-    display: flex;
-    flex-direction: row;
+.textbox1 .p1, .textbox2 .p1, .callerlink{
+    font-size: 1.2rem;
 }
-.textbox1{
-    width: 50%;
-    float: left;
+.selskaber-one h3, .textbox1 h3{
+    font-size: 1.6em;
 }
-.textbox2{
-    width: 50%;
-    float: right;
-    padding-top: 6.4rem;
+
+.textbox2 h3{
+    font-size: 1.3em;
 }
-.selsbillede{
-    position: relative;
-    width: 28rem;
-    margin: 2rem auto;
-    height: 19rem;
-    background-repeat: no-repeat;
-}
+
 }
 
 /* Media Query for Web */
@@ -249,20 +240,41 @@ hr{
     .linep1{
         margin-right: 20vw;
     }
-    h3{
-        font-size: 170%;
-        font-weight: bolder;
-        margin: 1rem 1.5rem;
-    }
-    p{
-        line-height: 2.2;
-        font-size: 110%;
-    }
     .phoneicon{
         width: 2.063rem;
         height: auto;
     } 
-
+    .selsbillede{
+        position: relative;
+        width: 50vw;
+        height: 35vh;
+        margin: 2rem auto;
+        background-repeat: no-repeat;
+    }
+    .textbox1, .textbox2{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .selskaber-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .textbox1{
+        width: 50%;
+        float: left;
+    }
+    .textbox2{
+        width: 50%;
+        float: right;
+        padding-top: 5rem;
+    }
+    .selsbillede{
+        position: relative;
+        width: 28rem;
+        margin: 2rem auto;
+        height: 19rem;
+        background-repeat: no-repeat;
+    }
     .selskab-galleri{
         background-color: var(--grey);
         margin-left: 0;
@@ -275,6 +287,22 @@ hr{
         height: 40vh;
         object-fit: cover;
         margin-bottom: -4px;
+    }
+
+    .textbox1 .p1, .textbox2 .p1, .callerlink{
+        font-size: 1.3rem;
+    }
+    .selskaber-one h3, .textbox1 h3{
+        font-size: 1.9em;
+    }
+    
+    .textbox2 h3{
+        font-size: 1.6em;
+        padding-top: 2rem;
+    }
+    .selskaber-container{
+        padding-left: 10rem;
+        padding-right: 10rem;
     }
 
 }

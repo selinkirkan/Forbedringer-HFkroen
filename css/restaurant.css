@@ -248,7 +248,7 @@ hr{
 
 
 /* Media Query for Tablet */
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 744px){
 
 .img-global{
     position: relative;
@@ -273,19 +273,11 @@ hr{
     top: 50vh;
     left: 89vw;
 }
-.restaurant-opening{
-    display: grid;
-    grid-template-rows: 50% 50%;
+.infobar, .restaurant-opening{
+    padding-left: 2.5em;
+    padding-right: 2.5rem;
 }
 
-.textbox1{
-    grid-row-start: 1;
-    grid-row-end: 1;
-}
-.textbox2{
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
 div.phone-tab{
     float: left;
     text-align: left;
@@ -319,12 +311,32 @@ div.phone-tab{
     padding-bottom: 0.5rem;
     border-bottom-right-radius: 60px;
 }
-
+p{
+    font-size: 1.2rem;
+}
+h3{
+    font-size: 1.6rem;
+}
+.phone-tab p, .callerlink{
+    font-size: 1.2rem;
+}
 }
 
 /* Media Query for Web */
 @media only screen and (min-width: 1150px) {
-
+    .restaurant-opening{
+        display: grid;
+        grid-template-rows: 50% 50%;
+    }
+    
+    .textbox1{
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .textbox2{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
     .img-global{
         position: relative;
         width: 28rem;
@@ -357,7 +369,7 @@ div.phone-tab{
     }
 
     .phone-tab p{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     .se-mere-menu{
@@ -414,7 +426,7 @@ div.phone-tab{
     }
     p{
         line-height: 2.2;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     .infotext2{
         height: 100px;
