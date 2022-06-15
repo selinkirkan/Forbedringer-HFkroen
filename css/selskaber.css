@@ -137,19 +137,19 @@ section p{
 }
 
 .sels1 {
-    background-image: url(../img/selskab1.jpg);
+    background-image: url(../img//selskaber/selskab1.webp);
     background-size: 150%;
     background-position: 50% 70%;
 }
 
 .sels2 {
-    background-image: url(../img/selskab2.jpg);
+    background-image: url(../img/selskaber/selskab2.webp);
     background-size: 150%;
     background-position: 50% 95%;
 }
 
 .sels3 {
-    background-image: url(../img/selskab3.jpg);
+    background-image: url(../img/selskaber/selskab3.webp);
     background-size: 128%;
     background-position: 50% 70%;
 }
