@@ -904,6 +904,12 @@ footer p{
     footer p{
         font-size: 1.3rem;
     }
+
+    .opening-flex {
+        justify-content:start;
+        gap: 4rem;
+    }
+
     /*Herunder styles på alle fontene, så de bliver forstørret, samt lidt padding på sektionerne*/
     .index-gridcontainer p{
         font-size: 1.2em;
@@ -1037,6 +1043,10 @@ footer p{
 
     .index-gridcontainer section{
         height: 50rem;
+    }
+    .opening-flex {
+        justify-content:space-between;
+        gap: 0;
     }
     
     /*Se mere knap*/
