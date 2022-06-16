@@ -3,7 +3,25 @@
     font-family: parisplus-clair;
     box-sizing: border-box;
 }
-
+/*Styling af header*/
+.header-green{
+    position: relative;
+    text-align: center;
+}
+.header-big-green{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+}
+.header-green img{
+    height: 7em;
+    margin-top: 3em;
+}
+.lang-titel{
+    font-size: 9vw;
+}
 /**,
 *::before,
 *::after {
@@ -255,7 +273,13 @@ span{
 
 /* Media Query for Tablet */
 @media only screen and (min-width: 744px) {
-    
+    .header-big-green{
+        font-size: 4em;
+        top: 2.2em;
+    }
+    .header-green img{
+        height: 9em;
+    }
     .flex-vaerelser p{
         font-size: 1.2rem;
         margin-left: 2.5em;
@@ -263,11 +287,6 @@ span{
     }
     .flex-vaerelser h3{
         font-size: 1.6rem;
-    }
-
-    h1.lang-titel {
-        top: 120px;
-        font-size: 4rem;
     }
 
     .facilitet-grid{
@@ -278,6 +297,15 @@ span{
 
 /* Media Query for Web */
 @media only screen and (min-width: 1150px) {
+    .header-green img{
+        height: 14em;
+    }
+    .header-big-green{
+        font-size: 6em;
+        margin-top: -1.2em;
+        top: 3.3em;
+    }
+
     .slideshow{
         width: 50vw;
         float: left;

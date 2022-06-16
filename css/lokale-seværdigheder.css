@@ -224,7 +224,10 @@ header img{
 @media only screen and (min-width: 744px){
     .header-big{
         font-size: 4em;
-        top: 2em;
+        top: 2.2em;
+    }
+    header img{
+        height: 9em;
     }
     .gridcontainer section p{
         font-size: 1.2em;
