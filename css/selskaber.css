@@ -1,46 +1,8 @@
 *{
     margin: 0;
 }
-
-/*Styling af header med titel*/
-header img{
-    width: 100vw;
-    height: 57vh;
-    margin-top: 3rem;
-    object-fit: cover;
-}
-
-header{
-    margin-bottom: -4px;
-}
-
-.header-big{
-    font-family: var(--script);
-    font-size: 4.5rem;
-    color: var(--light-text);
-    position: absolute;
-    top: 34%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-}
-
 .header-small{
-    font-style: italic;
-    font-size: 1,3rem;
-    color: var(--light-text);
-    position: absolute;
     top: 43%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.headerpics{
-    position: relative;
-}
-.headerimg{
-    position: relative;
 }
 
 /* Styling til sektionerne */
@@ -191,14 +153,6 @@ hr{
 
 /* Media Query for Tablet */
 @media only screen and (min-width: 744px){
-.header-big{
-    font-size: 7rem;
-    top: 33%;
-}
-.header-small{
-    top: 43%;
-    font-size: 1.6rem;
-}
 .textbox1, .textbox2{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -222,19 +176,6 @@ hr{
     html, body{
         max-width: 100%;
         overflow-x: hidden;
-    }
-    header img{
-        margin-top:auto;
-        height: 55vh;
-        object-fit: cover;
-    }
-    .header-big{
-        font-size: 10vw;
-        top: 32%;
-    }
-    .header-small{
-        top: 44%;
-        font-size: 1.8vw;
     }
 
     .linep1{
