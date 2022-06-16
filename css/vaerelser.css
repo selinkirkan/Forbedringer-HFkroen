@@ -144,8 +144,14 @@ div.mySlides{
     color: var(--dark-brown);
 }
 
+.pris{
+    margin-top: 0;
+}
 .under-knap-info{
+    padding-top: 2rem;
     float: right;
+    text-align: right;
+    margin-right: -12rem;
 }
 
 .Faciliteter{
@@ -252,6 +258,14 @@ div.mySlides{
     margin-right: 2em;
     margin-bottom: 2em;
 }
+.readmore h4{
+    font-size: 1.1rem;
+    margin-left: 0rem;
+}
+.cancelling{
+    padding-top: 1rem;
+}
+
 .question{
     display: flex;
     justify-content: space-between;
@@ -282,13 +296,26 @@ span{
     }
     .flex-vaerelser p{
         font-size: 1.2rem;
-        margin-left: 2.5em;
-        margin-right: 2.5em;
+        padding-left: 3rem;
     }
     .flex-vaerelser h3{
         font-size: 1.6rem;
+        margin-left: 0;
     }
-
+    .flex-vaerelser h4, .flex-vaerelser hr{
+        margin-left: 0;
+    }
+    .readmore{
+        margin-left: 0rem;
+        font-size: 1.2rem;
+    }
+    .readmore h4{
+        font-size: 1.3rem;
+    }
+    .flex-vaerelser{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
     .facilitet-grid{
         margin: 2rem;
     }
@@ -338,8 +365,8 @@ span{
 
     div.flex-vaerelser{
         margin: 0;
+        padding-left: 2.5rem;
         margin-right: 0;
-        padding: 0;
     }
 
     .vaerelses-info{
@@ -351,24 +378,27 @@ span{
     }
 
     .vaerelses-info p{
-        font-size: 1em;
+        font-size: 1.3em;
         color: var(--dark-brown);
-        padding-right: 8rem;
     }
 
     .Faciliteter{
-        width: 50vw;
+
         float: right;
         font-size: 1em;
         margin: 0;
     }
 
     .Faciliteter p{
-        font-size: 1em;
+        font-size: 1.3em;
     }
 
     .Faciliteter h3{
         padding: 0;
+        font-size: 1.9rem;
+    }
+    .Faciliteter h4{
+        font-size: 1.6rem;
     }
 
     .pris{
@@ -377,19 +407,24 @@ span{
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         float: right;
-        margin-right: 8rem;
+        margin-right: 2.5rem;
         margin-top: 2rem;
-        font-size: 1em;
+        font-size: 1.3em;
     }
 
     .under-knap-info{
-        text-align: right;
-        margin-top: 5rem;
-        float: none;
+        padding-top: 5rem;
+    }
+    .vaerelses-info .under-knap-info{
+        padding-right: 0;
     }
     /* Styling til afbestillingsreglerne */
     .readmore{
-        width: 38vw;
+        margin-left: 0rem;
+        font-size: 1.3rem;
+    }
+    .readmore h4{
+        font-size: 1.6rem;
     }
 
 
