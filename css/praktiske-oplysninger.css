@@ -201,7 +201,7 @@ header img{
     .gridcontainer{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 60vh 50vh 60vh 50vh;
+        grid-template-rows: 60vh 60vh 65vh 50vh;
     }
     
     /* Find vej Interaktivt kort */
