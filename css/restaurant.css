@@ -1,42 +1,8 @@
 /*Styling af header med titel*/
-header img{
-    width: 100%;
-    height: 59vh;
-    margin-top: 3rem;
-    object-fit: cover;
-}
-
-header{
-    margin-bottom: -4px;
-}
-
-.header-big{
-    font-family: var(--script);
-    font-size: 4.5rem;
-    color: var(--light-text);
-    position: absolute;
-    top: 34%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-}
-
 .header-small{
-    font-style: italic;
-    font-size: 4.5vw;
-    color: var(--light-text);
-    position: absolute;
     top: 43%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
 }
-.headerpics{
-    position: relative;
-}
-.headerimg{
-    position: relative;
-}
+
 .smileyicon{
     position: absolute;
     z-index: +1;
@@ -257,14 +223,6 @@ hr{
     margin: 2rem auto;
     background-repeat: no-repeat;
 }
-.header-big{
-    font-size: 7rem;
-    top: 33%;
-}
-.header-small{
-    top: 43%;
-    font-size: 1.6rem;
-}
 .smileyicon{
     position:absolute;
     z-index: +1;
@@ -344,20 +302,7 @@ h3{
         height: 19rem;
         background-repeat: no-repeat;
     }
-    header img{
-        margin-top:auto;
-        height: 55vh;
-        object-fit: cover;
-    }
-   
-    .header-big{
-        font-size: 10vw;
-        top: 32%;
-    }
-    .header-small{
-        top: 44%;
-        font-size: 1.8vw;
-    }
+
     .restaurant-opening{
         justify-content: space-evenly;
     }
