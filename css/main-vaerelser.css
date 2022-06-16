@@ -180,8 +180,8 @@ hr{
 
 /* Styling til room 1-7 slutter her */
 
-/* Media Query for Web */
-@media only screen and (min-width: 700px) {
+/* Media Query for Tablet */
+@media only screen and (min-width: 744px) {
 
     /* ----- Styling af content ----- */
     .header-big{
@@ -191,6 +191,142 @@ hr{
     .header-small{
         top: 65%;
         font-size: 1.6rem;
+    }
+    /* Vi begynder med grids */
+
+    .room-container{
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 2;
+        column-gap: 1rem;
+    }
+
+    /* Room-info-ophold og room-book-tlf laves til et grid så de kan stå ved siden af hinanden*/
+    .rooms-before{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .room-info-ophold{
+        grid-row-start: 1;
+        grid-row-end: 1;
+        padding: 2rem;
+    } 
+
+    .room-info-ophold p, .room-book-tlf p{
+        font-size: 1.2rem;
+    }
+
+    .room-info-ophold h3, .room-book-tlf h3{
+        font-size: 1.6rem;
+    }
+
+    section.room-book-tlf{
+        padding: 2rem;
+    }
+
+    .room-book-tlf{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .callerlink{
+        font-size: 1.3rem;
+    }
+
+    /* Grid til de 2 ovenover slutter her */
+
+    /* Værelserne grids + styling */
+
+    .room-1, .room-2, .room-3, .room-4, .room-5, .room-6, .room-7{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-color: #F0F0EB;
+        padding-top: 4rem;
+        border-top: 2px solid var(--grey);
+        padding-bottom: 2rem;
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+    }
+
+    .room-2, .room-4, .room-6{
+        background-color: var(--grey);
+    }
+
+
+    .room-img{
+        height: 25vh;
+        width: 36vh;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin-left: 5rem;
+    
+    }
+
+    .room-info{
+        grid-column-start: 1;
+        grid-column-end: 2 span;
+        padding-top: 2em;
+    }
+
+    div.room-info{
+        justify-content: center;
+        align-content: center;
+    }
+
+    .ikon-saet-rooms{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-right: 5rem;
+        margin-left: 0;
+    }
+
+
+
+    .ikon-saet-rooms p{
+        display: inline-block;
+        flex-wrap: wrap;
+
+    }
+
+    .ikon-saet-info{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .room-info h2{
+        font-size: 1.6rem;
+        color: var(--dark-green);
+    }
+    .room-info p{
+        font-size: 1.2rem;
+    }
+
+    /* Knapperne justeres til web */
+    .vaerelser-knapper p{
+        margin: 0;
+        padding: 0;
+        color: var(--light-green);
+        font-size: 1.2rem;
+    }
+    .vaerelser-knapper{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .room-se-mere, .room-pris{
+        padding-bottom: 1vh;
+        font-size: 1.15rem;
+        padding-top: 0.5rem;
     }
 }
 
@@ -260,6 +396,11 @@ hr{
         text-align: right;
         font-size: 1rem;
         padding-bottom: 1.3rem;
+        margin-right: 5rem;
+    }
+    .callerlink{
+        padding-left: 4rem;
+        float: none;
     }
 
     /* Værelserne grids + styling */
@@ -297,7 +438,13 @@ hr{
     .room-info{
         grid-row-start: 1;
         grid-row-end: 1;
-        
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    div.room-info{
+        justify-content: none;
+        align-content: none;
     }
 
     .room-info h2{
@@ -307,9 +454,6 @@ hr{
     }
     .room-info p{
         font-size: 1em;
-        margin-right: rem;
-        padding-right: 5rem;
-
     }
 
     .ikon-saet-rooms{
@@ -354,6 +498,7 @@ hr{
         text-align: right;
         padding-left: 5rem;
         padding-top: 2rem;
+        padding-right: 0;
     }
 
     .room-se-mere, .room-pris{

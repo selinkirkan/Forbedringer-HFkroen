@@ -277,6 +277,14 @@ span{
         font-size: 4em;
         top: 2em;
     }
+    .flex-vaerelser p{
+        font-size: 1.2rem;
+        margin-left: 2.5em;
+        margin-right: 2.5em;
+    }
+    .flex-vaerelser h3{
+        font-size: 1.6rem;
+    }
 
     h1.lang-titel {
         top: 120px;
@@ -286,6 +294,7 @@ span{
     .facilitet-grid{
         margin: 2rem;
     }
+
 }
 
 /* Media Query for Web */
