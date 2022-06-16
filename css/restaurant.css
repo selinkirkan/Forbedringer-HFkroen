@@ -196,19 +196,19 @@ p{
 }
 
 .pic1 {
-    background-image: url(../img/restaurant/laks1.jpg);
+    background-image: url(../img/restaurant/laks1.webp);
     background-size: 150%;
     background-position: 50% 70%;
 }
 
 .pic2 {
-    background-image: url(../img/restaurant/schnitzel.jpg);
+    background-image: url(../img/restaurant/schnitzel.webp);
     background-size: 150%;
     background-position: 50% 95%;
 }
 
 .pic3 {
-    background-image: url(../img/restaurant/dessert4.jpg);
+    background-image: url(../img/restaurant/dessert4.webp);
     background-size: 128%;
     background-position: 50% 70%;
 }
