@@ -362,7 +362,9 @@ span{
         flex-direction: column;
         width: 50vw;
     }
-
+    .flex-vaerelser h3{
+        font-size: 1.9rem;
+    }
     div.flex-vaerelser{
         margin: 0;
         padding-left: 2.5rem;
@@ -372,7 +374,7 @@ span{
     .vaerelses-info{
         float: right;
     }
-
+    
     .vaerelses-info h4{
         font-size: 1em;
     }
