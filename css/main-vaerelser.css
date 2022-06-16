@@ -29,7 +29,7 @@ body {
 .room-info-ophold p{
     padding-left: 4rem;
     padding-right: 1.5rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--dark-brown);
 }
 
@@ -37,21 +37,24 @@ body {
 .room-book-tlf p{
     text-align: right;
     color: var(--dark-green);
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding-bottom: 1.3rem;
     margin-right: 1.5rem;
 }
 
 /* Styling til room 1-7 */
-
+.room-img{
+    width: 100vw;
+    height: fit-content;
+}
 .ikon-saet-rooms{
-    margin-left: 3rem;
-    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
 }
 .ikon-saet-rooms div{
     text-align: center;
@@ -62,7 +65,7 @@ body {
     font-style: normal;
     margin-left: 1rem;
     margin-right: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 20;
     font-family: var(--sans-serif);
 }
@@ -71,7 +74,7 @@ body {
     padding-left: 4rem;
     padding-right: 1.5rem;
     padding-bottom: 1.3rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1.6em;
 }
 
@@ -112,7 +115,7 @@ hr{
 }
 
 .ikon-p p{
-    font-size: 1em;
+    font-size: 0.8rem;
     color: var(--dark-green);
     font-style: var(--sans-serif-regular);
     padding-left: 0;
@@ -163,12 +166,9 @@ hr{
 
     /* Room-info-ophold og room-book-tlf laves til et grid så de kan stå ved siden af hinanden*/
     .rooms-before{
-        display: grid;
-        grid-template-columns: 50% 50%;
         margin-bottom: 1.5rem;
 
     }
-
     .room-info-ophold{
         grid-row-start: 1;
         grid-row-end: 1;
@@ -219,11 +219,11 @@ hr{
 
 
     .room-img{
-        height: 25vh;
-        width: 36vh;
+        width:50vw;
+        height: fit-content;
         grid-column-start: 1;
         grid-column-end: 2;
-        margin-left: 5rem;
+        margin-left: 1rem;
     
     }
 
@@ -240,25 +240,26 @@ hr{
 
     .ikon-saet-rooms{
         grid-column-start: 2;
-        grid-column-end: 2;
+        grid-column-end: 3;
         display: inline-block;
-        margin-top: 0;
+        margin-top: 2rem;
         margin-bottom: 0;
         padding-right: 5rem;
         margin-left: 0;
     }
-
-
-
-    .ikon-saet-rooms p{
-        display: inline-block;
-        flex-wrap: wrap;
-
+    .ikon-saet{
+        display: flex;
+        margin-bottom: 3rem;
+    }
+    .ikon-saet p{
+        margin-top: 0.5rem;
+        margin-left: 1rem;
     }
 
     .ikon-saet-info{
         display: flex;
         flex-direction: row;
+        margin-top: 2rem;
 
     }
     .room-info h2{
@@ -273,19 +274,19 @@ hr{
     .vaerelser-knapper p{
         margin: 0;
         padding: 0;
-        color: var(--light-green);
+        padding-right: 7rem;
         font-size: 1.2rem;
     }
     .vaerelser-knapper{
         padding-left: 5rem;
         padding-right: 5rem;
-        padding-top: 2rem;
+        padding-top: 0rem;
         margin-bottom: 2rem;
     }
 
     .room-se-mere, .room-pris{
         padding-bottom: 1vh;
-        font-size: 1.15rem;
+        font-size: 1.2rem;
         padding-top: 0.5rem;
     }
 }
@@ -314,10 +315,12 @@ hr{
         grid-row-start: 1;
         grid-row-end: 1;
         padding: 2rem;
+        padding-left: 3rem;
     } 
 
     section.room-book-tlf{
         padding: 2rem;
+        padding-right: 3rem;
     }
 
     .room-book-tlf{
@@ -333,17 +336,18 @@ hr{
 
     .room-info-ophold p{
         padding-left: 4rem;
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .room-book-tlf p{
         text-align: right;
-        font-size: 1rem;
+        font-size: 1.3rem;
         padding-bottom: 1.3rem;
-        margin-right: 5rem;
+        padding-top:1rem;
+        margin-right: 2rem;
     }
     .callerlink{
-        padding-left: 4rem;
+        padding-right: 5rem;
         float: none;
     }
 
@@ -364,7 +368,6 @@ hr{
     }
 
     .room-img{
-        height: 20vw;
         width: 36vw;
         grid-column-start: 2;
         grid-column-end: 2;
@@ -389,15 +392,19 @@ hr{
     div.room-info{
         justify-content: none;
         align-content: none;
+        padding-top: 0rem;
     }
 
     .room-info h2{
         font-size: 2rem;
-        padding-top: 1rem;
+        padding-top: 0rem;
         color: var(--dark-green);
     }
     .room-info p{
-        font-size: 1em;
+        font-size: 1.3em;
+    }
+    .ikon-saet{
+        display: block;
     }
 
     .ikon-saet-rooms{
@@ -406,19 +413,26 @@ hr{
         display: inline-block;
         margin-top: 0;
         margin-bottom: 0;
-    }
-
-    .ikon-saet-rooms img{
-        margin: 1em;
+        padding-right: 1rem;
     }
     .ikon-saet-rooms p{
-        color: var(--dark-green);
+        font-size: 1.1rem;
     }
-
+    .ikon-saet-rooms img{
+        margin: 0em;
+    }
+ 
     .ikon-p img{
-        margin: 1.5rem;
+        margin: 0rem;
         width: 40px;
         height: 33px;
+    }
+    .antal-personer{
+        margin-left: -5rem; 
+        margin-right: 1rem;
+    }
+    .stoerrelse{
+        margin-right: 1rem;
     }
 
     .ikon-p p{
@@ -434,21 +448,20 @@ hr{
     /* Knapperne justeres til web */
     .vaerelser-knapper p{
         margin: 0;
+        margin-right: 6.5rem;
         padding: 0;
-        color: var(--light-green);
         font-size: 1.2rem;
     }
     .vaerelser-knapper{
-        text-align: right;
-        padding-left: 5rem;
-        padding-top: 2rem;
+        padding-left: 2rem;
+        margin-top: -0.5rem;
         padding-right: 0;
     }
 
     .room-se-mere, .room-pris{
         /*padding-right: 3rem;*/
         padding-bottom: 1vh;
-        font-size: 1.15rem;
+        font-size: 1.1rem;
         padding-top: 0.5rem;
     }
 
