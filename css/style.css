@@ -1373,7 +1373,7 @@ footer p{
         justify-content: space-between;
         height: 100%;
         background-color: var(--light-text);
-        padding-right: 10rem;
+        padding-right: 4rem;
     }
 
     /*Find Vej - Kort*/
@@ -1381,6 +1381,7 @@ footer p{
         width: 55rem;
         height: 35rem;
         margin-top: 7rem;
+        margin-left: 3rem;
         }
 
     /* [Text] Find Vej Grid-Box */

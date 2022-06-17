@@ -105,10 +105,9 @@ div.phone-tab{
 
 }
 h3{
-    font-style: normal;
-    font-weight: bolder;
+    font-family: var(--sans-serif);
     color: var(--dark-green);
-    font-size: 1.3rem;
+    font-weight: 400;
 }
 .infoline{
     margin: 1rem 3rem;
@@ -119,10 +118,7 @@ h3{
     padding-bottom: 3em;
     padding-right: 1.2em;
 }
-.h3info{
-    /*margin-left: 2em;*/
-    color: var(--dark-green);
-}
+
 .p-box{
     margin-left: 4rem;
     margin-right: 1rem;
@@ -272,9 +268,6 @@ div.phone-tab{
 p{
     font-size: 1.2rem;
 }
-h3{
-    font-size: 1.6rem;
-}
 .phone-tab p, .callerlink{
     font-size: 1.2rem;
 }
@@ -363,7 +356,6 @@ h3{
 
     h3{
         font-size: 1.9rem;
-        font-weight: bolder;
         margin: 1rem 1.5rem;
     }
     .h3info{

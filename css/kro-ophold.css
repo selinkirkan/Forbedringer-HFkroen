@@ -28,17 +28,25 @@
     padding-bottom: 2em;
     height: fit-content;
 }
+.openerright h3{
+    padding-top: 2.1rem;
+}
 hr{
     margin-left: 1.5em;
     margin-right: 1.5em;
 }
-
+h3{
+    font-family: var(--sans-serif);
+    color: var(--light-green);
+    font-weight: 400;
+}
 .openerleft{
     background-color: var(--grey);
     padding-top: 2em;
     padding-left: 1em;
     padding-right: 1em;
     height: fit-content;
+    padding-block: 4rem;
 }
 /*Sektion med én overnatning*/
 .section-img{
@@ -170,7 +178,7 @@ hr{
     .gridcontainer{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 20vh 80vh 80vh;
+        grid-template-rows: 30vh 80vh 80vh;
     }
     .openerleft{
         grid-column: 1/2;
