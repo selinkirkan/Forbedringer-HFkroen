@@ -909,6 +909,9 @@ footer p{
         justify-content:start;
         gap: 4rem;
     }
+    .index-opening{
+        padding-left:5rem;
+    }
 
     /*Herunder styles på alle fontene, så de bliver forstørret, samt lidt padding på sektionerne*/
     .index-gridcontainer p{
@@ -927,6 +930,9 @@ footer p{
     }
     .index-gridcontainer .index-opening, .index-gridcontainer .index-findus{
         height: 35vh;
+    }
+    .index-gridcontainer .index-opening{
+        padding-left:4rem;
     }
     
 }
@@ -1065,12 +1071,15 @@ footer p{
         }    
 
     /* Åbningstider Grid-Box */
+    .index-gridcontainer .index-opening{
+        padding-left:0rem;
+    }
     .index-opening{
         grid-column: 2/3;
         grid-row: 1/2;
         background-color: var(--grey);
         height: 100%;
-        padding-left: 1.6rem;
+        padding-left: 0rem;
         padding-right: 1.2rem;
     }
 
@@ -1078,14 +1087,14 @@ footer p{
         color: var(--dark-green);
         font-size: 1.9rem;
         padding-top: 2.5rem;
-        margin-left: 2.5rem;
+        margin-left: 4rem;
     }
     
     .index-opening h4{
         color: var(--light-green);
         font-size: 1.6rem;
-        padding-top: 4.4rem;
-        margin-left: 2.7rem;
+        padding-top: 1rem;
+        margin-left: 1rem;
         margin-bottom: 1rem;
         padding-bottom: 1.2rem;
     }
@@ -1093,6 +1102,7 @@ footer p{
     .opening-flex{
         justify-content: space-between;
         padding-right: 6.5rem;
+        padding-left: 3rem;
     }
 
     .opening-flex p{
