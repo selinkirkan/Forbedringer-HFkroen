@@ -41,7 +41,9 @@ body {
     padding-bottom: 1.3rem;
     margin-right: 1.5rem;
 }
-
+.rooms-before{
+    padding-bottom: 1.5rem;
+}
 /* Styling til room 1-7 */
 .room-img{
     width: 100vw;
@@ -142,12 +144,15 @@ hr{
     margin-top: 1.5rem;
 }
 
-.room-2, .room-4, .room-6{
+.room-2, .room-4, .room-6, .rooms-before{
     background-color: var(--grey);
 }
 
 .grey{
     background-color: var(--light-text);
+}
+.room-7{
+    padding-bottom: 5rem;
 }
 
 /* Styling til room 1-7 slutter her */
@@ -207,7 +212,6 @@ hr{
         grid-column-end: 2;
         background-color: #F0F0EB;
         padding-top: 4rem;
-        border-top: 2px solid var(--grey);
         padding-bottom: 2rem;
         padding-left: 2.5em;
         padding-right: 2.5em;
@@ -360,7 +364,7 @@ hr{
         grid-template-columns: auto auto auto;
         background-color: #F0F0EB;
         padding-top: 4rem;
-        border-top: 2px solid var(--grey);
+
         padding-left: 1rem;
         padding-right: 1rem;
         padding-bottom: 2rem;
@@ -396,7 +400,7 @@ hr{
     }
 
     .room-info h2{
-        font-size: 2rem;
+        font-size: 1.9rem;
         padding-top: 0rem;
         color: var(--dark-green);
     }
