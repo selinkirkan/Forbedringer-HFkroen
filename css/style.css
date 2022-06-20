@@ -957,9 +957,26 @@ footer p{
         font-family: var(--sans-serif-regular);
         font-style: italic;
     }
+    .nav-links{
+        display: flex;
+        width: 55vw;
+        justify-content: space-evenly;
+    }
+    nav ul{
+        max-height: none;
+    }
+    .nav-link{
+        display: flex;
+        align-items: center;
+        width: 32vw;
+        justify-content: space-evenly;
+    }
 
     .subnav{
         max-height: none;
+    }
+    .info-sub-nav{
+        margin-top: 17rem;
     }
 
     .subnav .subnavbtn {
